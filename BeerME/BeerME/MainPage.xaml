@@ -7,10 +7,15 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Margin="-233,-58,-94,52">
+    <Grid x:Name="HomeScreen" Margin="10">
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="Pics/beer_bg_1.jpg"/>
         </Grid.Background>
+        <TextBlock x:Name="IsGPIOAvail" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="GPIO Avail?" VerticalAlignment="Top" Height="31" Width="217"/>
+        <TextBlock x:Name="IsPinAvail" HorizontalAlignment="Left" Margin="10,46,0,0" TextWrapping="Wrap" Text="PinAvail?" VerticalAlignment="Top" Height="32" Width="217"/>
+        <TextBlock x:Name="IsPinOpenDisplay" HorizontalAlignment="Left" Margin="10,83,0,0" TextWrapping="Wrap" Text="Is Pin avail?" VerticalAlignment="Top" Height="32" Width="217"/>
+        <TextBlock x:Name="PinReadDisplay" HorizontalAlignment="Left" Margin="10,120,0,0" TextWrapping="Wrap" Text="Is pin reading?" VerticalAlignment="Top" Height="29" Width="217"/>
+        <TextBlock x:Name="PinOutputDisplay" HorizontalAlignment="Left" Margin="10,154,0,0" TextWrapping="Wrap" Text="Pin Output" VerticalAlignment="Top" Height="29" Width="217"/>
 
     </Grid>
 </Page>
